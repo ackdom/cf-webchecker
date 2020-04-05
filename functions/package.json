@@ -1,0 +1,21 @@
+{
+  "name": "cf-checker",
+  "version": "1.0.0",
+  "description": "Simply scrap and check website and call callback if content changed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "firebase deploy"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "firebase-admin": "^8.10.0",
+    "firebase-functions": "^3.6.0",
+    "got": "^10.2.1"
+  }
+}
